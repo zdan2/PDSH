@@ -1,0 +1,5 @@
+.gitignore
+basic.ipynb
+file_list.txt
+PDSH_課題集_初心者-中級-上級_各100題 - Sheet1.csv
+venv

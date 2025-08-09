@@ -1,0 +1,301 @@
+ID,レベル,領域,章参照,課題タイトル,課題内容,提出物,タグ
+B001,初心者,Jupyter/IPython,第1–3章,Notebookの基本,新規Jupyter Notebookを作成し、Markdownセルとコードセルを使って自己紹介ノートを作る。Markdownで見出し・リスト・数式（$a^2+b^2$）を1つずつ使う。,Notebook（.ipynb）,"Jupyter, Markdown"
+B002,初心者,Jupyter/IPython,第1–3章,%timeitの入門,Pythonのリスト内包表記とNumPyベクトル化の実行時間を%timeitで比較し、結果をMarkdownで考察する。,Notebook（.ipynb）,"IPython, timeit, NumPy"
+B003,初心者,Jupyter/IPython,第1–3章,ヘルプシステム,? と ?? を使って、numpy.linspace と numpy.random.rand のドキュメントとソースを調べ、学んだ点を要約する。,Notebook（.ipynb）,"IPython, help"
+B004,初心者,Jupyter/IPython,第1–3章,Tab補完の活用,Tab補完でnumpy.randomモジュール内の関数名をリストアップし、よく使いそうな関数3つを試す。,Notebook（.ipynb）,"IPython, tab-complete"
+B005,初心者,Jupyter/IPython,第1–3章,履歴とOut変数,In/Out履歴を使って前の計算結果を再利用するミニワークフローを示す。,Notebook（.ipynb）,"IPython, history"
+B006,初心者,Jupyter/IPython,第1–3章,Magicコマンド基礎,"%lsmagicと%magicで利用可能なマジックの一覧を確認し、%pwd, %who, %run をデモする。",Notebook（.ipynb）,"IPython, magic"
+B007,初心者,Jupyter/IPython,第1–3章,シェル連携,!ls（または!dir）と!echoを使って、NotebookからOSコマンドを実行し、結果をpandasで読み込む例を作る。,Notebook（.ipynb）,"IPython, shell, pandas"
+B008,初心者,Jupyter/IPython,第1–3章,エラーモード,%xmode Plain/Context/Verbose を切り替えて例外表示の違いを観察する。,Notebook（.ipynb）,"IPython, xmode"
+B009,初心者,Jupyter/IPython,第1–3章,デバッグ入門,%debug を使い、故意にエラーを出す関数のローカル変数を調べて原因を特定する。,Notebook（.ipynb）,"IPython, debug"
+B010,初心者,Jupyter/IPython,第1–3章,プロファイル入門,%time と %timeit の違いを同じ関数で比較し、どんな場面で使い分けるかを説明する。,Notebook（.ipynb）,"IPython, profiling"
+B011,初心者,NumPy,第4–11章,配列作成の基本,リストから1次元ndarrayを作成し、dtypeとshapeを確認する。,Notebook（.ipynb）,NumPy
+B012,初心者,NumPy,第4–11章,ゼロ/ワン配列,zeros・ones・fullを使って 3x4 行列を3通りで生成し、値とdtypeの違いを比較する。,Notebook（.ipynb）,NumPy
+B013,初心者,NumPy,第4–11章,乱数配列,np.random.default_rng を使ってシード固定の 5x5 乱数行列を作る。,Notebook（.ipynb）,NumPy
+B014,初心者,NumPy,第4–11章,スライス1D,1次元配列のスライス（前半/後半/ステップ）を3種類示す。,Notebook（.ipynb）,NumPy
+B015,初心者,NumPy,第4–11章,スライス2D,2次元配列で行・列を抽出するスライス例を3つ示す。,Notebook（.ipynb）,NumPy
+B016,初心者,NumPy,第4–11章,ビューとコピー,スライスがビューであることを確認し、コピーとの違いを実験で示す。,Notebook（.ipynb）,NumPy
+B017,初心者,NumPy,第4–11章,形状変更,reshapeで 3x4 -> 2x6 -> 12 に変換し、元配列と同じメモリを共有しているか調べる。,Notebook（.ipynb）,NumPy
+B018,初心者,NumPy,第4–11章,連結と分割,np.concatenateとnp.splitで配列を結合・分割する。,Notebook（.ipynb）,NumPy
+B019,初心者,NumPy,第4–11章,ufunc基礎（算術）,加減乗除・累乗・剰余のベクトル化計算を示す。,Notebook（.ipynb）,NumPy
+B020,初心者,NumPy,第4–11章,ufunc（三角/指数/対数）,"sin, exp, logを使って関数値を配列で計算し、端点を確認する。",Notebook（.ipynb）,NumPy
+B021,初心者,NumPy,第4–11章,集約の基本,"sum, mean, std, min, max を軸なし/軸ありで使い分ける。",Notebook（.ipynb）,NumPy
+B022,初心者,NumPy,第4–11章,多次元集約,2D配列でaxis=0/1の合計を比較する。,Notebook（.ipynb）,NumPy
+B023,初心者,NumPy,第4–11章,ブロードキャスト1,"形状 (3,1) と (1,4) の配列を足して (3,4) を得る。",Notebook（.ipynb）,NumPy
+B024,初心者,NumPy,第4–11章,ブロードキャスト2,行ごと/列ごとに平均を引いてセンタリングする。,Notebook（.ipynb）,NumPy
+B025,初心者,NumPy,第4–11章,比較とマスク1,配列の要素がしきい値を超える位置をブール配列で取得する。,Notebook（.ipynb）,NumPy
+B026,初心者,NumPy,第4–11章,比較とマスク2,条件を満たす要素数をcount_nonzeroで数える。,Notebook（.ipynb）,NumPy
+B027,初心者,NumPy,第4–11章,ファンシーインデクス1,指定したインデクスの要素をまとめて取り出す。,Notebook（.ipynb）,NumPy
+B028,初心者,NumPy,第4–11章,ファンシーインデクス2,2D配列の対角要素を取り出す。,Notebook（.ipynb）,NumPy
+B029,初心者,NumPy,第4–11章,ソート基礎,np.sortとnp.argsortの違いを確認し、上位k件を取り出す。,Notebook（.ipynb）,NumPy
+B030,初心者,NumPy,第4–11章,部分ソート,np.partitionで最小k要素を高速に取得する。,Notebook（.ipynb）,NumPy
+B031,初心者,NumPy,第4–11章,ヒストグラム,np.histogramで1Dデータの度数分布を求める。,Notebook（.ipynb）,NumPy
+B032,初心者,NumPy,第4–11章,乱数の再現性,乱数生成器を2回初期化して同じ配列が得られることを示す。,Notebook（.ipynb）,NumPy
+B033,初心者,NumPy,第4–11章,dtypeの違い,int32とfloat64で同じ演算をして結果の違いを観察する。,Notebook（.ipynb）,NumPy
+B034,初心者,NumPy,第4–11章,NaNの扱い（NumPy）,"np.nan, np.isnan, np.nanmean の違いを確認する。",Notebook（.ipynb）,NumPy
+B035,初心者,NumPy,第4–11章,線形代数入門,np.dot と @ を用いて2Dベクトルの内積と行列積を計算する。,Notebook（.ipynb）,NumPy
+B036,初心者,NumPy,第4–11章,距離行列,2Dポイント集合からユークリッド距離行列を作る（ブロードキャスト利用）。,Notebook（.ipynb）,NumPy
+B037,初心者,NumPy,第4–11章,乱択,np.random.choiceで要素を無作為抽出（置換あり/なし）する。,Notebook（.ipynb）,NumPy
+B038,初心者,NumPy,第4–11章,インデクスの結合,複数のブール条件を & と | で組み合わせる。,Notebook（.ipynb）,NumPy
+B039,初心者,NumPy,第4–11章,メモリ確認,配列のnbytes（必要ならitemsize×サイズ）を報告する。,Notebook（.ipynb）,NumPy
+B040,初心者,NumPy,第4–11章,型変換,astypeで整数配列をfloat配列に変換する。,Notebook（.ipynb）,NumPy
+B041,初心者,pandas,第13–23章,Series基礎,リストからSeriesを作り、indexとvaluesを参照する。,Notebook（.ipynb）,pandas
+B042,初心者,pandas,第13–23章,DataFrame基礎,辞書からDataFrameを作り、列・行の取得を練習する。,Notebook（.ipynb）,pandas
+B043,初心者,pandas,第13–23章,loc/iloc入門,locとilocの違いを例で説明し、2通りで同じ行を取得する。,Notebook（.ipynb）,pandas
+B044,初心者,pandas,第13–23章,列演算,既存列から新しい列（例：BMI=体重/身長^2）を作る。,Notebook（.ipynb）,pandas
+B045,初心者,pandas,第13–23章,ブールフィルタ,条件で行を抽出し、件数を数える。,Notebook（.ipynb）,pandas
+B046,初心者,pandas,第13–23章,インデクス操作,set_indexとreset_indexを試す。,Notebook（.ipynb）,pandas
+B047,初心者,pandas,第13–23章,連結concat,複数のDataFrameを縦方向に連結し、インデクスを再採番する。,Notebook（.ipynb）,pandas
+B048,初心者,pandas,第13–23章,結合merge(1対1),キー列で1対1結合を行う。,Notebook（.ipynb）,pandas
+B049,初心者,pandas,第13–23章,結合merge(多対1),カテゴリマスタを参照する多対1結合を作る。,Notebook（.ipynb）,pandas
+B050,初心者,pandas,第13–23章,結合merge(多対多),多対多結合を行い、重複行の扱いを確認する。,Notebook（.ipynb）,pandas
+B051,初心者,pandas,第13–23章,欠損値の検出,isna/notnaで欠損をカウントする。,Notebook（.ipynb）,pandas
+B052,初心者,pandas,第13–23章,欠損値の補完,fillnaで平均/中央値/前方埋めを比較する。,Notebook（.ipynb）,pandas
+B053,初心者,pandas,第13–23章,型（nullable）,"Int64, boolean などのnullable dtypeを使ってみる。",Notebook（.ipynb）,pandas
+B054,初心者,pandas,第13–23章,階層型インデクス入門,MultiIndexを作ってstack/unstackを体験する。,Notebook（.ipynb）,pandas
+B055,初心者,pandas,第13–23章,groupby集約(基本),グループごとの平均・合計・件数を計算する。,Notebook（.ipynb）,pandas
+B056,初心者,pandas,第13–23章,groupbyの集約と変換,"agg, transform, apply の違いを小例で示す。",Notebook（.ipynb）,pandas
+B057,初心者,pandas,第13–23章,ピボットテーブル,行・列・値を指定してデータをピボットする。,Notebook（.ipynb）,pandas
+B058,初心者,pandas,第13–23章,文字列操作1,Series.strを使って前後の空白除去・大文字化を行う。,Notebook（.ipynb）,pandas
+B059,初心者,pandas,第13–23章,文字列操作2（正規表現）,Series.str.extractでパターンから列を抽出する。,Notebook（.ipynb）,pandas
+B060,初心者,pandas,第13–23章,時系列入門,DatetimeIndexを作り、日付範囲のフィルタを行う。,Notebook（.ipynb）,pandas
+B061,初心者,pandas,第13–23章,再サンプリング,日次データを月次へresampleし、合計と平均を比べる。,Notebook（.ipynb）,pandas
+B062,初心者,pandas,第13–23章,シフトと移動平均,shiftとrolling(window=7).meanを使った特徴量を作る。,Notebook（.ipynb）,pandas
+B063,初心者,pandas,第13–23章,並べ替えと上位抽出,sort_valuesとnlargestで上位n件を取得する。,Notebook（.ipynb）,pandas
+B064,初心者,pandas,第13–23章,カテゴリ型,astype('category')に変換し、メモリ使用量を比較する。,Notebook（.ipynb）,pandas
+B065,初心者,pandas,第13–23章,重複処理,drop_duplicatesで重複行を削除する。,Notebook（.ipynb）,pandas
+B066,初心者,pandas,第13–23章,欠損の可視化準備,欠損の位置をブールで持ち、列ごとの欠損率を算出する。,Notebook（.ipynb）,pandas
+B067,初心者,pandas,第13–23章,データの入出力,CSVを読み書きし、dtypeやparse_datesを指定する。,Notebook（.ipynb）,pandas
+B068,初心者,pandas,第13–23章,列の型推定,infer_objectsやto_numericで型を整える。,Notebook（.ipynb）,pandas
+B069,初心者,pandas,第13–23章,describeの活用,数値/カテゴリでdescribeを比較する。,Notebook（.ipynb）,pandas
+B070,初心者,pandas,第13–23章,小規模EDA,任意のデータフレームで5つの基本統計（平均/中央値/最小/最大/標準偏差）と上位カテゴリの頻度表を作る。,Notebook（.ipynb）,pandas
+B071,初心者,Matplotlib/可視化,第26–36章,線グラフ,plt.plotでy=sin(x)の線グラフを描く。軸ラベルとタイトルを付ける。,Notebook（.ipynb）,Matplotlib
+B072,初心者,Matplotlib/可視化,第26–36章,散布図（plot）,"plt.plot(..., 'o') で散布図を描き、αとマーカーサイズを指定する。",Notebook（.ipynb）,Matplotlib
+B073,初心者,Matplotlib/可視化,第26–36章,散布図（scatter）,plt.scatterで色とサイズを別変数で表現する。,Notebook（.ipynb）,Matplotlib
+B074,初心者,Matplotlib/可視化,第26–36章,ヒストグラム,plt.histで正規乱数のヒストグラムを描く。ビン数を変えて比較する。,Notebook（.ipynb）,Matplotlib
+B075,初心者,Matplotlib/可視化,第26–36章,エラーバー,plt.errorbarで平均と標準偏差を可視化する。,Notebook（.ipynb）,Matplotlib
+B076,初心者,Matplotlib/可視化,第26–36章,等高線図,plt.contourfで2変数関数の等高線図を描く。,Notebook（.ipynb）,Matplotlib
+B077,初心者,Matplotlib/可視化,第26–36章,2Dヒスト/hexbin,plt.hist2d と plt.hexbin を比較する。,Notebook（.ipynb）,Matplotlib
+B078,初心者,Matplotlib/可視化,第26–36章,カラーマップ,plt.cmを使ってカラーマップを変更し、色範囲を制限する。,Notebook（.ipynb）,Matplotlib
+B079,初心者,Matplotlib/可視化,第26–36章,凡例,凡例に任意ラベルを与え、locを変えて表示位置を比較する。,Notebook（.ipynb）,Matplotlib
+B080,初心者,Matplotlib/可視化,第26–36章,複数サブプロット,plt.subplotsで2x2のグリッドに4種類の図を並べる。,Notebook（.ipynb）,Matplotlib
+B081,初心者,Matplotlib/可視化,第26–36章,注釈,矢印付き注釈を1つ追加し、指し示す点の意味を説明する。,Notebook（.ipynb）,Matplotlib
+B082,初心者,Matplotlib/可視化,第26–36章,目盛りの調整,主目盛と補助目盛、フォーマッタを使って軸を整える。,Notebook（.ipynb）,Matplotlib
+B083,初心者,Matplotlib/可視化,第26–36章,スタイルシート,スタイルをデフォルト/ggplot/暗い背景で切り替えて比較する。,Notebook（.ipynb）,Matplotlib
+B084,初心者,Matplotlib/可視化,第26–36章,rcParams,フォントサイズと図の大きさをrcParamsで一括調整する。,Notebook（.ipynb）,Matplotlib
+B085,初心者,Matplotlib/可視化,第26–36章,色バー,imshow(乱数画像)+colorbarを作り、範囲と離散色を試す。,Notebook（.ipynb）,Matplotlib
+B086,初心者,Matplotlib/可視化,第26–36章,テキストの配置,ax.textで相対座標を指定し、複数ラベルをレイアウトする。,Notebook（.ipynb）,Matplotlib
+B087,初心者,Matplotlib/可視化,第26–36章,保存,図をSVG/PNGで保存し、dpiや透過の違いを確認する。,Notebook（.ipynb）,Matplotlib
+B088,初心者,Matplotlib/可視化,第26–36章,凡例（サイズ凡例）,点サイズの意味を示すカスタム凡例を作る。,Notebook（.ipynb）,Matplotlib
+B089,初心者,Matplotlib/可視化,第26–36章,GridSpec,GridSpecで非等間隔のレイアウトを作る。,Notebook（.ipynb）,Matplotlib
+B090,初心者,Matplotlib/可視化,第26–36章,可視化のベストプラクティス,誤解を招くスケール/色の使い方の例を挙げ、改善案を示す。,Notebook（.ipynb）,Matplotlib
+B091,初心者,機械学習（scikit-learn）,第37–47章,データ表現の基礎,"scikit-learnの特徴量行列Xと目的変数yの形（n_samples, n_features）を任意データで確認する。",Notebook（.ipynb）,scikit-learn
+B092,初心者,機械学習（scikit-learn）,第37–47章,ホールドアウト検証,train_test_splitで訓練/テストに分割し、単純な線形回帰でR^2を報告する。,Notebook（.ipynb）,scikit-learn
+B093,初心者,機械学習（scikit-learn）,第37–47章,分類入門（Iris）,Irisデータをロードし、kNNかロジスティック回帰で正解率を計算する。,Notebook（.ipynb）,scikit-learn
+B094,初心者,機械学習（scikit-learn）,第37–47章,次元削減入門（PCA）,手書き数字データにPCAを当て、主要成分の累積寄与率を可視化する。,Notebook（.ipynb）,scikit-learn
+B095,初心者,機械学習（scikit-learn）,第37–47章,学習曲線の作成,Iris分類でtrain_sizesを変えた学習曲線を描く。,Notebook（.ipynb）,scikit-learn
+B096,初心者,機械学習（scikit-learn）,第37–47章,検証曲線の作成,SVMのCを変えた検証曲線を描いて過学習/学習不足の傾向を考察する。,Notebook（.ipynb）,scikit-learn
+B097,初心者,機械学習（scikit-learn）,第37–47章,パイプライン入門,標準化+ロジスティック回帰のPipelineを作り、cross_val_scoreで精度を測る。,Notebook（.ipynb）,scikit-learn
+B098,初心者,機械学習（scikit-learn）,第37–47章,特徴量エンジニアリング入門,カテゴリ特徴量をOneHotEncoderで数値化し、線形回帰に渡す。,Notebook（.ipynb）,scikit-learn
+B099,初心者,機械学習（scikit-learn）,第37–47章,テキスト分類入門,少数の短文コーパスをTfidfVectorizerでベクトル化し、ナイーブベイズで分類する。,Notebook（.ipynb）,scikit-learn
+B100,初心者,機械学習（scikit-learn）,第37–47章,クラスタリング入門（k-means）,合成データにk-meansを適用してクラスタ中心を可視化する。,Notebook（.ipynb）,scikit-learn
+I001,中級,NumPy,第8–12章,ブロードキャスト規則の検証,形状の異なる配列の演算が可能/不可能になる条件を表にまとめるコードを書く。,Notebook（.ipynb）,NumPy
+I002,中級,NumPy,第8–12章,センタリングとスケーリング,各列の平均0・分散1に標準化する関数をベクトル化で実装。,Notebook（.ipynb）,NumPy
+I003,中級,NumPy,第8–12章,距離計算の最適化,二重forの距離行列コードをベクトル化し、%timeitで速度比較する。,Notebook（.ipynb）,NumPy
+I004,中級,NumPy,第8–12章,ファンシーインデクス（高次元）,3次元配列から特定の軸のインデクス集合を取り出す。,Notebook（.ipynb）,NumPy
+I005,中級,NumPy,第8–12章,インデクスの組合せ,2つのインデクス配列を組み合わせて選択・代入する。,Notebook（.ipynb）,NumPy
+I006,中級,NumPy,第8–12章,ヒストグラム化によるビニング,np.digitizeで連続値をビンに割り当てて頻度表を出す。,Notebook（.ipynb）,NumPy
+I007,中級,NumPy,第8–12章,argsortを使った上位K,距離が小さい順にK近傍のインデクスを返す関数を作る。,Notebook（.ipynb）,NumPy
+I008,中級,NumPy,第8–12章,構造化配列,レコード配列で人名・年齢・身長の表を作り、ソートやフィルタを行う。,Notebook（.ipynb）,NumPy
+I009,中級,NumPy,第8–12章,メモリ効率の比較,同じデータをPythonリストとndarrayで保持し、メモリ使用を比較する。,Notebook（.ipynb）,NumPy
+I010,中級,NumPy,第8–12章,ブールマスクの応用,外れ値（IQR×1.5超）をブールマスクで検出して除外する。,Notebook（.ipynb）,NumPy
+I011,中級,NumPy,第8–12章,np.where活用,条件に応じて値を置換する3項演算をwhereで実装する。,Notebook（.ipynb）,NumPy
+I012,中級,NumPy,第8–12章,直積の活用,np.multiply.outerでグラム行列風の行列を作る。,Notebook（.ipynb）,NumPy
+I013,中級,NumPy,第8–12章,累積演算,cumsum/cumprodで累積和・積を列単位に求める。,Notebook（.ipynb）,NumPy
+I014,中級,NumPy,第8–12章,乱数の分布比較,正規/一様/ポアソンからサンプルし、平均・分散・ヒストグラムで比較する。,Notebook（.ipynb）,NumPy
+I015,中級,NumPy,第8–12章,線形代数（固有値）,対称行列の固有値分解を行い、再構成誤差を確認する。,Notebook（.ipynb）,NumPy
+I016,中級,NumPy,第8–12章,least squares,最小二乗で直線当てはめを行い、係数を求める。,Notebook（.ipynb）,NumPy
+I017,中級,NumPy,第8–12章,マスクと代入,条件を満たす要素だけ値を変更し、副作用を検証する。,Notebook（.ipynb）,NumPy
+I018,中級,NumPy,第8–12章,NaN安全な計算,nanmean/nanstd/nanpercentileで欠損を含む統計量を求める。,Notebook（.ipynb）,NumPy
+I019,中級,NumPy,第8–12章,tile/repeatの使い分け,tileとrepeatでデータを拡張する例を3つ示す。,Notebook（.ipynb）,NumPy
+I020,中級,NumPy,第8–12章,ベンチマーク設計,ブロードキャスト/ループ/リスト内包の3方式を%timeitで比較する。,Notebook（.ipynb）,NumPy
+I021,中級,NumPy,第8–12章,np.unique応用,ユニーク値と各値の出現回数・逆引きインデクスを求める。,Notebook（.ipynb）,NumPy
+I022,中級,NumPy,第8–12章,np.take/put,takeとputで高速な要素アクセス・代入を行う。,Notebook（.ipynb）,NumPy
+I023,中級,NumPy,第8–12章,メッシュグリッド,np.meshgridで2D関数の値テーブルを生成する。,Notebook（.ipynb）,NumPy
+I024,中級,NumPy,第8–12章,stride_tricks入門,as_stridedの危険性と利点をデモ（読み取り専用で）。,Notebook（.ipynb）,NumPy
+I025,中級,NumPy,第8–12章,乱数の再現性（複数ストリーム）,独立なRNGを複数作り、実験を再現可能にする。,Notebook（.ipynb）,NumPy
+I026,中級,pandas,第14–23章,MultiIndexの作成と選択,3階層のMultiIndexを作成し、xsで部分選択する。,Notebook（.ipynb）,pandas
+I027,中級,pandas,第14–23章,stack/unstackの往復,長い形式↔広い形式を相互に変換し、情報が失われないことを確認する。,Notebook（.ipynb）,pandas
+I028,中級,pandas,第14–23章,カテゴリ型の順序,順序付きカテゴリを作成し、並び替えや比較の挙動を確認する。,Notebook（.ipynb）,pandas
+I029,中級,pandas,第14–23章,ウィンドウ関数,"rolling, expanding, ewm の違いを比較する。",Notebook（.ipynb）,pandas
+I030,中級,pandas,第14–23章,groupby+aggの複数統計,複数関数・複数列の集約を列名に階層を持たせて出力する。,Notebook（.ipynb）,pandas
+I031,中級,pandas,第14–23章,groupby.transformの活用,"各グループで標準化（平均0, 分散1）した列を作る。",Notebook（.ipynb）,pandas
+I032,中級,pandas,第14–23章,applyでカスタム集約,グループごとにIQRや尖度を返す関数をapplyする。,Notebook（.ipynb）,pandas
+I033,中級,pandas,第14–23章,mergeの検証,how（inner/left/right/outer）の違いを小さな例で検証する。,Notebook（.ipynb）,pandas
+I034,中級,pandas,第14–23章,joinキーの指定,left_on/right_onやleft_index/right_indexの挙動を比較する。,Notebook（.ipynb）,pandas
+I035,中級,pandas,第14–23章,重複キーの扱い,重複キー結合で行が増えるケースを可視化する。,Notebook（.ipynb）,pandas
+I036,中級,pandas,第14–23章,ピボット（多重）,多重ピボットで3軸をまとめた表を作る。,Notebook（.ipynb）,pandas
+I037,中級,pandas,第14–23章,文字列のベクトル化,Series.str.extractallでパターンの繰り返しを抽出する。,Notebook（.ipynb）,pandas
+I038,中級,pandas,第14–23章,正規表現の命名グループ,(?P<name>...) を使って抽出列名を付ける。,Notebook（.ipynb）,pandas
+I039,中級,pandas,第14–23章,欠損処理の戦略比較,除外、単純補完、前方/後方埋めで分析結果がどう変わるか比較。,Notebook（.ipynb）,pandas
+I040,中級,pandas,第14–23章,時系列：resampleの穴埋め,asfreqで欠測を明示し、interpolateで連続化する。,Notebook（.ipynb）,pandas
+I041,中級,pandas,第14–23章,時系列：シフトと差分,日次データから日次リターン（pct_change）を作成。,Notebook（.ipynb）,pandas
+I042,中級,pandas,第14–23章,ベクトル化文字列→カテゴリ化,value_counts上位kをカテゴリ、それ以外をOtherにまとめる。,Notebook（.ipynb）,pandas
+I043,中級,pandas,第14–23章,メモリの見積り,DataFrame.memory_usage(deep=True)で列ごとのメモリをレポート。,Notebook（.ipynb）,pandas
+I044,中級,pandas,第14–23章,高速化の実験,for+appendとconcat（list収集→最後にconcat）の速度を比較。,Notebook（.ipynb）,pandas
+I045,中級,pandas,第14–23章,小さなEDAテンプレ,関数化して任意のDataFrameの基本レポートを出す。,Notebook（.ipynb）,pandas
+I046,中級,pandas,第14–23章,assign/pipeメソッド連鎖,メソッドチェーンで読みやすい前処理パイプを作る。,Notebook（.ipynb）,pandas
+I047,中級,pandas,第14–23章,タイムゾーン,tz_localize/tz_convertでタイムゾーンを扱う。,Notebook（.ipynb）,pandas
+I048,中級,pandas,第14–23章,ロケール依存の日時,月名の文字列をto_datetimeで解釈して日付に変換。,Notebook（.ipynb）,pandas
+I049,中級,pandas,第14–23章,グループ内順位,rank(method='dense')でグループ内順位を付ける。,Notebook（.ipynb）,pandas
+I050,中級,pandas,第14–23章,クロス集計,pd.crosstabでカテゴリ×カテゴリの表を作る。,Notebook（.ipynb）,pandas
+I051,中級,pandas,第14–23章,多列キーのmerge,複数列をキーにして結合し、一部だけ一致するケースを検討。,Notebook（.ipynb）,pandas
+I052,中級,pandas,第14–23章,集計結果のスタイル,Stylerでハイライトやバー表示を設定する（Notebook上で）。,Notebook（.ipynb）,pandas
+I053,中級,pandas,第14–23章,nullable intの罠,Int64とfloatのNaNの扱いの違いを検証する。,Notebook（.ipynb）,pandas
+I054,中級,pandas,第14–23章,Index操作の落とし穴,sort_indexの有無でlocのスライス挙動が変わる点を確認。,Notebook（.ipynb）,pandas
+I055,中級,pandas,第14–23章,重複行の検出,duplicatedで重複フラグを立て、最初/最後/全部の保持を比較。,Notebook（.ipynb）,pandas
+I056,中級,pandas,第14–23章,グループサンプリング,groupby.sampleで各グループから一定件数を抽出。,Notebook（.ipynb）,pandas
+I057,中級,pandas,第14–23章,rolling.applyの自作関数,ウィンドウ内のカスタム指標（例：最大-最小）を計算。,Notebook（.ipynb）,pandas
+I058,中級,pandas,第14–23章,時系列：営業日カレンダー,BDay/CBMonthEndなどのオフセットを使う。,Notebook（.ipynb）,pandas
+I059,中級,pandas,第14–23章,read_csvの実践,大きめCSVをchunksizeで読み込み、集約結果を結合。,Notebook（.ipynb）,pandas
+I060,中級,pandas,第14–23章,to_parquetの体験,Parquetで保存し、dtypeとサイズを比較する。,Notebook（.ipynb）,pandas
+I061,中級,Matplotlib/可視化,第29–36章,カスタム凡例,ハンドルを自作して点サイズの意味を示す凡例を作る。,Notebook（.ipynb）,Matplotlib
+I062,中級,Matplotlib/可視化,第29–36章,2軸グラフ,twinxで2つのy軸を持つ図を作り、目盛りをフォーマットする。,Notebook（.ipynb）,Matplotlib
+I063,中級,Matplotlib/可視化,第29–36章,注釈の高度化,annotateでテキスト枠のスタイル・矢印プロップを調整する。,Notebook（.ipynb）,Matplotlib
+I064,中級,Matplotlib/可視化,第29–36章,色バーの拡張,extend='both'や離散カラーバーで外れ値を表現する。,Notebook（.ipynb）,Matplotlib
+I065,中級,Matplotlib/可視化,第29–36章,サブプロット間の共有軸,sharex/shareyで比較しやすい配置にする。,Notebook（.ipynb）,Matplotlib
+I066,中級,Matplotlib/可視化,第29–36章,GridSpec高度化,比率の異なるグリッドとinset_axesで差し込み図を作る。,Notebook（.ipynb）,Matplotlib
+I067,中級,Matplotlib/可視化,第29–36章,Formatter/Locator自作,金額や日付のフォーマットをカスタムFormatterで実装。,Notebook（.ipynb）,Matplotlib
+I068,中級,Matplotlib/可視化,第29–36章,目盛の間引き,MaxNLocatorなどで見やすい目盛間隔を自動化する。,Notebook（.ipynb）,Matplotlib
+I069,中級,Matplotlib/可視化,第29–36章,rcParamsプロファイル,設定の保存/読み込みでスタイルを再現する。,Notebook（.ipynb）,Matplotlib
+I070,中級,Matplotlib/可視化,第29–36章,等高線のラベリング,clabelで等高線に数値を付与する。,Notebook（.ipynb）,Matplotlib
+I071,中級,Matplotlib/可視化,第29–36章,棒グラフのエラーバー,barとerrorbarを組み合わせた図を作る。,Notebook（.ipynb）,Matplotlib
+I072,中級,Matplotlib/可視化,第29–36章,3D表面図,plot_surfaceでサンプル関数の表面を描く。,Notebook（.ipynb）,Matplotlib
+I073,中級,Matplotlib/可視化,第29–36章,3D等高線・ワイヤーフレーム,contour3Dとplot_wireframeの違いを比較。,Notebook（.ipynb）,Matplotlib
+I074,中級,Matplotlib/可視化,第29–36章,seaborn入門,pairplotとjointplotで関係を俯瞰する。,Notebook（.ipynb）,Matplotlib
+I075,中級,Matplotlib/可視化,第29–36章,FacetGrid,カテゴリで面分割した図を作る。,Notebook（.ipynb）,Matplotlib
+I076,中級,Matplotlib/可視化,第29–36章,スタイル比較,"ggplot, fivethirtyeight, seabornを比較し可読性を考察。",Notebook（.ipynb）,Matplotlib
+I077,中級,Matplotlib/可視化,第29–36章,保存自動化,複数図をループで保存し、ファイル名に変数を埋め込む。,Notebook（.ipynb）,Matplotlib
+I078,中級,Matplotlib/可視化,第29–36章,相関の可視化,ヒートマップで相関行列を可視化する。,Notebook（.ipynb）,Matplotlib
+I079,中級,Matplotlib/可視化,第29–36章,密度推定,kdeplot相当をMatplotlibとSciPyで描く。,Notebook（.ipynb）,Matplotlib
+I080,中級,Matplotlib/可視化,第29–36章,ベストプラクティス検討,色覚バリアフリーの配色選択を検討し資料化する。,Notebook（.ipynb）,Matplotlib
+I081,中級,機械学習（scikit-leーン）,第38–46章,交差検証の設計,KFoldとStratifiedKFoldを比較し、分類で分布がどう保たれるか検証する。,Notebook（.ipynb）,scikit-learn
+I082,中級,機械学習（scikit-leーン）,第38–46章,グリッドサーチ,"SVM(C, gamma)でGridSearchCVし、ベストパラメータとスコアを報告。",Notebook（.ipynb）,scikit-learn
+I083,中級,機械学習（scikit-leーン）,第38–46章,学習曲線/検証曲線,同一データで2つの曲線を描き、過学習/学習不足を議論。,Notebook（.ipynb）,scikit-learn
+I084,中級,機械学習（scikit-leーン）,第38–46章,パイプライン,StandardScaler→PCA→ロジスティック回帰のPipelineでIris分類。,Notebook（.ipynb）,scikit-learn
+I085,中級,機械学習（scikit-leーン）,第38–46章,欠損補完と前処理,ColumnTransformerで数値は標準化、カテゴリはOne-Hot、欠損は補完。,Notebook（.ipynb）,scikit-learn
+I086,中級,機械学習（scikit-leーン）,第38–46章,ナイーブベイズ（テキスト）,20newsgroupsの一部を使ってMultinomialNBで分類。,Notebook（.ipynb）,scikit-learn
+I087,中級,機械学習（scikit-leーン）,第38–46章,ランダムフォレスト特徴重要度,RFで重要度を棒グラフ表示し、上位特徴を分析。,Notebook（.ipynb）,scikit-learn
+I088,中級,機械学習（scikit-leーン）,第38–46章,SVMのカーネル比較,linear/RBF/polyで分類性能の差を比較。,Notebook（.ipynb）,scikit-learn
+I089,中級,機械学習（scikit-leーン）,第38–46章,線形回帰の正則化,RidgeとLassoで係数の縮小効果を可視化。,Notebook（.ipynb）,scikit-learn
+I090,中級,機械学習（scikit-leーン）,第38–46章,回帰の評価指標,MAE/MSE/R2を同一データで比較する。,Notebook（.ipynb）,scikit-learn
+I091,中級,機械学習（scikit-leーン）,第38–46章,ROC/AUC,2クラス分類でROC曲線とAUCを算出。,Notebook（.ipynb）,scikit-learn
+I092,中級,機械学習（scikit-leーン）,第38–46章,多クラス評価,混同行列を作成し、精度/適合率/再現率/F1を報告。,Notebook（.ipynb）,scikit-learn
+I093,中級,機械学習（scikit-leーン）,第38–46章,特徴量選択,SelectKBestやRFEで特徴量を絞り、性能比較。,Notebook（.ipynb）,scikit-learn
+I094,中級,機械学習（scikit-leーン）,第38–46章,クラスタリング評価,k-meansでシルエット係数を計算し、kの選び方を検討。,Notebook（.ipynb）,scikit-learn
+I095,中級,機械学習（scikit-leーン）,第38–46章,DBSCAN入門,ノイズを含むクラスタリングにDBSCANを試す。,Notebook（.ipynb）,scikit-learn
+I096,中級,機械学習（scikit-leーン）,第38–46章,PCAの可視化,2成分に圧縮して散布図を描き、クラス分離を観察。,Notebook（.ipynb）,scikit-learn
+I097,中級,機械学習（scikit-leーン）,第38–46章,Isomap/LLE比較,digitsデータで非線形次元削減2種を比較。,Notebook（.ipynb）,scikit-learn
+I098,中級,機械学習（scikit-leーン）,第38–46章,ハイパーパラ最適化（ランダム探索）,RandomizedSearchCVで広い範囲を探索する。,Notebook（.ipynb）,scikit-learn
+I099,中級,機械学習（scikit-leーン）,第38–46章,パイプラインの保存,joblibで学習済みモデルを保存/読み込み。,Notebook（.ipynb）,scikit-learn
+I100,中級,機械学習（scikit-leーン）,第38–46章,データリーク検出,不適切な前処理（全データで標準化など）が起こすリークを実験で示す。,Notebook（.ipynb）,scikit-learn
+A001,上級,Jupyter/IPython,第2–3章,%prunでプロファイル,ボトルネックを含む処理を%prunでプロファイルし、上位関数を特定する。,Notebook（.ipynb）,"IPython, profiling"
+A002,上級,Jupyter/IPython,第2–3章,%lprunで行単位プロファイル,line_profilerを使ってホットスポットの行を特定し、改善案を提示。,Notebook（.ipynb）,"IPython, profiling"
+A003,上級,Jupyter/IPython,第2–3章,%memitでメモリ計測,memory_profilerの%memitでピークメモリを計測し、データ構造で削減する。,Notebook（.ipynb）,"IPython, profiling"
+A004,上級,Jupyter/IPython,第2–3章,例外の詳細調査,%xmode Verboseで深いスタックの原因を追跡する。,Notebook（.ipynb）,"IPython, profiling"
+A005,上級,Jupyter/IPython,第2–3章,デバッグの実戦,複数関数が絡むバグを%debugで再現し、修正コミットメッセージを書く。,Notebook（.ipynb）,"IPython, profiling"
+A006,上級,Jupyter/IPython,第2–3章,シェル連携の自動化,!find/!grep/!sed等（Windowsは代替）でログ解析パイプをNotebook化。,Notebook（.ipynb）,"IPython, profiling"
+A007,上級,Jupyter/IPython,第2–3章,マジックの自作,簡単なlineマジックを実装し、利用例とともに配布可能な形にする。,Notebook（.ipynb）,"IPython, profiling"
+A008,上級,Jupyter/IPython,第2–3章,プロファイル前後比較,最適化前後で%timeit/%prunの差をレポートにまとめる。,Notebook（.ipynb）,"IPython, profiling"
+A009,上級,Jupyter/IPython,第2–3章,nbconvertでレポート生成,NotebookをHTML/PDFに変換し、図とテーブル付きのレポートを作る。,Notebook（.ipynb）,"IPython, profiling"
+A010,上級,Jupyter/IPython,第2–3章,再現性の確保,random seed・環境情報・パッケージバージョンをNotebook内に記録する仕組みを作る。,Notebook（.ipynb）,"IPython, profiling"
+A011,上級,pandas,第16–23章,巨大CSVの分割集約,chunksizeで段階的に読み、オンメモリ集約と結果の結合を行う。,Notebook（.ipynb）,pandas
+A012,上級,pandas,第16–23章,dtype最適化,数値/カテゴリ/日時の適切なdtypeを選び、メモリ削減率を報告。,Notebook（.ipynb）,pandas
+A013,上級,pandas,第16–23章,メソッド連鎖設計,pipe/assign/queryで前処理パイプを関数化し再利用可能にする。,Notebook（.ipynb）,pandas
+A014,上級,pandas,第16–23章,インデクス戦略,RangeIndex/DatetimeIndex/CategoricalIndexの長所短所を実験比較。,Notebook（.ipynb）,pandas
+A015,上級,pandas,第16–23章,高度なgroupby,多指標（平均・分散・歪度・尖度）とブートストラップ信頼区間を出力。,Notebook（.ipynb）,pandas
+A016,上級,pandas,第16–23章,時系列の穴埋め高度化,holidayカレンダーを考慮して営業日補間する。,Notebook（.ipynb）,pandas
+A017,上級,pandas,第16–23章,ローリングの効率化,numbaエンジン（可能なら）でrolling.applyを高速化。,Notebook（.ipynb）,pandas
+A018,上級,pandas,第16–23章,複雑なjoin,時刻の最近傍で結びつけるmerge_asofを実装・検証。,Notebook（.ipynb）,pandas
+A019,上級,pandas,第16–23章,ピボット×MultiIndex,複数階層の列・行でピボット→列名の整形（flatten）関数を作る。,Notebook（.ipynb）,pandas
+A020,上級,pandas,第16–23章,文字列正規化,全角/半角/ひらがな/カタカナの正規化を一括実装。,Notebook（.ipynb）,pandas
+A021,上級,pandas,第16–23章,テキスト→特徴量表,文字列列から頻出n-gramカウント表を作る（pandasのみで）。,Notebook（.ipynb）,pandas
+A022,上級,pandas,第16–23章,欠損のMCAR/MAR/MNAR仮説,シミュレーションで3種類の欠損生成を実装し影響を比較。,Notebook（.ipynb）,pandas
+A023,上級,pandas,第16–23章,out-of-core集計,pd.read_csv+usecolsで必要列のみ読み、集約を高速化。,Notebook（.ipynb）,pandas
+A024,上級,pandas,第16–23章,ハイブリッドインデクス,文字列×日時のMultiIndexで部分選択と範囲スライスを併用。,Notebook（.ipynb）,pandas
+A025,上級,pandas,第16–23章,窓関数でイベント検出,rollingで変化点（急騰/急落）を検出する指標を設計。,Notebook（.ipynb）,pandas
+A026,上級,pandas,第16–23章,メモリプロファイル,memory_usage(deep=True)の内訳をレポートし、最適化後と比較。,Notebook（.ipynb）,pandas
+A027,上級,pandas,第16–23章,地理データの前処理,緯度経度をビンに割り当ててヒートマップ集計（GeoPandas無し）。,Notebook（.ipynb）,pandas
+A028,上級,pandas,第16–23章,時系列の重複イベント解決,重複する期間データを結合し、非重複区間列を作る。,Notebook（.ipynb）,pandas
+A029,上級,pandas,第16–23章,巨大データのソート戦略,sort_valuesのメモリ/時間のトレードオフを測定する。,Notebook（.ipynb）,pandas
+A030,上級,pandas,第16–23章,I/O最適化,圧縮（gzip/zstd）とフォーマット（csv/parquet）でサイズと速度を比較。,Notebook（.ipynb）,pandas
+A031,上級,pandas,第16–23章,カスタムインデクサ,pd.api.indexersを使わずにユーザ定義インデクサ的な処理をrollingで再現。,Notebook（.ipynb）,pandas
+A032,上級,pandas,第16–23章,グループのターゲットエンコーディング,リーク防止のために交差検証内で平均ターゲットを計算。,Notebook（.ipynb）,pandas
+A033,上級,pandas,第16–23章,pandas×NumPy協調,vectorize/where/selectを使ってpandasにNumPyの計算を組み込む。,Notebook（.ipynb）,pandas
+A034,上級,pandas,第16–23章,タイムゾーンまたぎの集約,UTCに正規化した上でローカル日付単位の集計を行う。,Notebook（.ipynb）,pandas
+A035,上級,pandas,第16–23章,EDAレポート自動化,NotebookからPDF/HTMLの自動レポートを生成する仕組みを作る。,Notebook（.ipynb）,pandas
+A036,上級,Matplotlib/可視化,第33–36章,カスタムスタイルシート作成,社内標準の色・フォント・サイズを設定したstyleファイルを作る。,Notebook（.ipynb）,Matplotlib
+A037,上級,Matplotlib/可視化,第33–36章,テーマ切替対応,ダーク/ライトで文字色やグリッドの見え方を最適化する関数を作る。,Notebook（.ipynb）,Matplotlib
+A038,上級,Matplotlib/可視化,第33–36章,高解像度出力,論文向けのベクトル（PDF/SVG）とラスタ（PNG）の違いを実験。,Notebook（.ipynb）,Matplotlib
+A039,上級,Matplotlib/可視化,第33–36章,3Dプロットの最適化,大規模点群の描画を間引き/アルファで可視化しやすくする。,Notebook（.ipynb）,Matplotlib
+A040,上級,Matplotlib/可視化,第33–36章,インタラクティブ注釈,クリックで注釈を出す簡易インタラクションをmatplotlib.widgetsで作る。,Notebook（.ipynb）,Matplotlib
+A041,上級,Matplotlib/可視化,第33–36章,アニメーション入門,FuncAnimationで時間変化するデータを動画化。,Notebook（.ipynb）,Matplotlib
+A042,上級,Matplotlib/可視化,第33–36章,カラーマップ設計,連続/発散/定性カラーマップの選び方を事例で示す。,Notebook（.ipynb）,Matplotlib
+A043,上級,Matplotlib/可視化,第33–36章,複数軸の整形,tight_layout/constrained_layoutの違いを比較する。,Notebook（.ipynb）,Matplotlib
+A044,上級,Matplotlib/可視化,第33–36章,凡例の高度な配置,BboxToAnchorを使って余白にレジェンドを置く。,Notebook（.ipynb）,Matplotlib
+A045,上級,Matplotlib/可視化,第33–36章,GridSpec+inset,大図の一部拡大をinset_axesで示す。,Notebook（.ipynb）,Matplotlib
+A046,上級,Matplotlib/可視化,第33–36章,テキストのタイポグラフィ,数学表記（TeX）と通常テキストを混在させる。,Notebook（.ipynb）,Matplotlib
+A047,上級,Matplotlib/可視化,第33–36章,出版品質チェック,フォント埋め込み・文字化け・線幅などのチェックリストを作る。,Notebook（.ipynb）,Matplotlib
+A048,上級,Matplotlib/可視化,第33–36章,seabornのテーマをカスタム,set_themeのパラメータを調整して社内標準に近づける。,Notebook（.ipynb）,Matplotlib
+A049,上級,Matplotlib/可視化,第33–36章,3D等高線のラベル,3D等高線に投影ラベルを重ねる。,Notebook（.ipynb）,Matplotlib
+A050,上級,Matplotlib/可視化,第33–36章,グリッド上の共有色バー,複数サブプロットで色バーを1つにまとめる。,Notebook（.ipynb）,Matplotlib
+A051,上級,機械学習（scikit-learn）,第39–47章,PCAの寄与率で次元選択,累積寄与率が90%になる次元数をデータごとに自動選択する関数を作る。,Notebook（.ipynb）,scikit-learn
+A052,上級,機械学習（scikit-learn）,第39–47章,固有顔で顔認識,PCA（Eigenfaces）で次元削減→SVMで顔画像を分類（小規模データで可）。,Notebook（.ipynb）,scikit-learn
+A053,上級,機械学習（scikit-learn）,第39–47章,IsomapとLLEの比較,合成S字データの低次元埋め込みを2手法で比較し、歪みを評価。,Notebook（.ipynb）,scikit-learn
+A054,上級,機械学習（scikit-learn）,第39–47章,クラスタ数の選択（k-means）,肘法とシルエット係数を用いてkを選ぶ。,Notebook（.ipynb）,scikit-learn
+A055,上級,機械学習（scikit-learn）,第39–47章,GMMでソフトクラスタリング,混合ガウスモデルで各点の所属確率を可視化。,Notebook（.ipynb）,scikit-learn
+A056,上級,機械学習（scikit-learn）,第39–47章,テキスト分類パイプライン,Tfidf→LinearSVCでニュース分類し、誤分類例を解析。,Notebook（.ipynb）,scikit-learn
+A057,上級,機械学習（scikit-learn）,第39–47章,特徴量重要度の安定性,ランダムフォレストのrandom_stateを変えて重要度のばらつきを評価。,Notebook（.ipynb）,scikit-learn
+A058,上級,機械学習（scikit-learn）,第39–47章,相関の高い特徴量の処理,相関>0.95の特徴を削除してモデル比較。,Notebook（.ipynb）,scikit-learn
+A059,上級,機械学習（scikit-learn）,第39–47章,ターゲットエンコーディング,リーク防止CV内でのターゲットエンコーディングを実装。,Notebook（.ipynb）,scikit-learn
+A060,上級,機械学習（scikit-learn）,第39–47章,異常検知（IsolationForest）,異常点を含むデータで検出性能を評価。,Notebook（.ipynb）,scikit-learn
+A061,上級,機械学習（scikit-learn）,第39–47章,回帰の正則化比較,Ridge/Lasso/ElasticNetを同一データで比較し、係数プロファイルを描く。,Notebook（.ipynb）,scikit-learn
+A062,上級,機械学習（scikit-learn）,第39–47章,非線形回帰（SVR）,RBFカーネルのSVRで非線形回帰を実行。,Notebook（.ipynb）,scikit-learn
+A063,上級,機械学習（scikit-learn）,第39–47章,特徴量パイプライン高度化,ColumnTransformerで数値：スケーリング+多項、カテゴリ：OneHot＋頻度、テキスト：TF-IDFを統合。,Notebook（.ipynb）,scikit-learn
+A064,上級,機械学習（scikit-learn）,第39–47章,時系列交差検証,TimeSeriesSplitで未来情報のリークを避けた検証を行う。,Notebook（.ipynb）,scikit-learn
+A065,上級,機械学習（scikit-learn）,第39–47章,外れ値ロバスト回帰,HuberRegressor/RANSACRegressorで外れ値に強い回帰を比較。,Notebook（.ipynb）,scikit-learn
+A066,上級,機械学習（scikit-learn）,第39–47章,クラス不均衡対策,class_weightやSMOTE相当の合成データで対策を比較。,Notebook（.ipynb）,scikit-learn
+A067,上級,機械学習（scikit-learn）,第39–47章,多クラスSVMの戦略,one-vs-rest/one-vs-oneの違いをdigitsで比較。,Notebook（.ipynb）,scikit-learn
+A068,上級,機械学習（scikit-learn）,第39–47章,多出力回帰/分類,MultiOutputRegressor/Classifierの例を作る。,Notebook（.ipynb）,scikit-learn
+A069,上級,機械学習（scikit-learn）,第39–47章,確率キャリブレーション,CalibratedClassifierCVで予測確率の較正を行う。,Notebook（.ipynb）,scikit-learn
+A070,上級,機械学習（scikit-learn）,第39–47章,パラメトリックvsノンパラ,kNN・SVM・RFでバイアス/バリアンスの違いを観察。,Notebook（.ipynb）,scikit-learn
+A071,上級,機械学習（scikit-learn）,第39–47章,特徴量スケーリングの効果,スケーリング有無でSVM/ロジスティック回帰の性能差を検証。,Notebook（.ipynb）,scikit-learn
+A072,上級,機械学習（scikit-learn）,第39–47章,学習曲線からのサイジング,必要サンプル数を学習曲線から推定する。,Notebook（.ipynb）,scikit-learn
+A073,上級,機械学習（scikit-learn）,第39–47章,グリッドサーチ×パイプライン,前処理と推定器を含む複合パラメータ空間でGridSearchCV。,Notebook（.ipynb）,scikit-learn
+A074,上級,機械学習（scikit-learn）,第39–47章,partial dependence,PartialDependenceDisplayで特徴量と出力の関係を可視化。,Notebook（.ipynb）,scikit-learn
+A075,上級,機械学習（scikit-learn）,第39–47章,Permutation Importance,入れ替え重要度で安定性と解釈力を比較。,Notebook（.ipynb）,scikit-learn
+A076,上級,機械学習（scikit-learn）,第39–47章,SHAP風の簡易可視化,モデル非依存の寄与度を自作で近似（小規模実験）。,Notebook（.ipynb）,scikit-learn
+A077,上級,機械学習（scikit-learn）,第39–47章,異常検知（OneClassSVM）,球状データでOneClassSVMの挙動を観察。,Notebook（.ipynb）,scikit-learn
+A078,上級,機械学習（scikit-learn）,第39–47章,半教師あり学習,LabelSpreading/LabelPropagationを小規模データで試す。,Notebook（.ipynb）,scikit-learn
+A079,上級,機械学習（scikit-learn）,第39–47章,教師なし前処理→教師あり,PCA/Isomapで次元削減後に分類・回帰を行う。,Notebook（.ipynb）,scikit-learn
+A080,上級,機械学習（scikit-learn）,第39–47章,パイプラインのテスト戦略,train/test分割とCVの両立、乱数固定の指針を文書化。,Notebook（.ipynb）,scikit-learn
+A081,上級,機械学習（scikit-learn）,第39–47章,モデルの安定性評価,ブートストラップでスコア分布を推定し、信頼区間を出す。,Notebook（.ipynb）,scikit-learn
+A082,上級,機械学習（scikit-learn）,第39–47章,軽量モデル設計,特徴量を絞って学習時間と推論時間を削減。,Notebook（.ipynb）,scikit-learn
+A083,上級,機械学習（scikit-learn）,第39–47章,確率的クラスタリング評価,GMMの情報量規準（AIC/BIC）でモデル選択。,Notebook（.ipynb）,scikit-learn
+A084,上級,機械学習（scikit-learn）,第39–47章,階層的クラスタリング（scipy）,凝集型クラスタリングと樹形図を作る。,Notebook（.ipynb）,scikit-learn
+A085,上級,機械学習（scikit-learn）,第39–47章,ミニプロジェクト：数字認識,digitsでE2E（前処理→学習→評価→可視化）を行う。,Notebook（.ipynb）,scikit-learn
+A086,上級,機械学習（scikit-learn）,第39–47章,ミニプロジェクト：テキスト分類,小規模コーパスで前処理→学習→誤分類分析→改善を行う。,Notebook（.ipynb）,scikit-learn
+A087,上級,機械学習（scikit-learn）,第39–47章,データ漏洩の検出と防止,リークを含む悪い例を設計し、正しいPipelineで防ぐ。,Notebook（.ipynb）,scikit-learn
+A088,上級,機械学習（scikit-learn）,第39–47章,学習・推論時間の計測,fit/score/predictの所要時間をベンチマーク。,Notebook（.ipynb）,scikit-learn
+A089,上級,機械学習（scikit-learn）,第39–47章,モデルの再現性,乱数・シード・環境の固定で再現実験を行う。,Notebook（.ipynb）,scikit-learn
+A090,上級,機械学習（scikit-learn）,第39–47章,クロスバリデーション設計,GroupKFoldやLeaveOneOutの適用例を作る。,Notebook（.ipynb）,scikit-learn
+A091,上級,機械学習（scikit-learn）,第39–47章,メタ推定器,Voting/Stackingで複数モデルのアンサンブルを作る。,Notebook（.ipynb）,scikit-learn
+A092,上級,機械学習（scikit-learn）,第39–47章,確率出力の校正比較,Plattスケーリングと等温回帰を比較。,Notebook（.ipynb）,scikit-learn
+A093,上級,機械学習（scikit-learn）,第39–47章,特徴量の相互作用,PolynomialFeaturesで相互作用を追加した場合の性能を比較。,Notebook（.ipynb）,scikit-learn
+A094,上級,機械学習（scikit-learn）,第39–47章,データ前処理の順序効果,スケーリング→PCA と PCA→スケーリングで結果の違いを検証。,Notebook（.ipynb）,scikit-learn
+A095,上級,機械学習（scikit-learn）,第39–47章,疎行列対応,text TF-IDFなど疎行列を扱う推定器を比較。,Notebook（.ipynb）,scikit-learn
+A096,上級,機械学習（scikit-learn）,第39–47章,ラベルエンコーディングの罠,LabelEncoderを誤って特徴量に使った場合の悪影響を実験。,Notebook（.ipynb）,scikit-learn
+A097,上級,機械学習（scikit-learn）,第39–47章,ターゲットリークの実演,未来情報を含む特徴を入れてしまった場合の異常に高いスコアを再現。,Notebook（.ipynb）,scikit-learn
+A098,上級,機械学習（scikit-learn）,第39–47章,未知カテゴリ処理,OneHotEncoder(handle_unknown='ignore')の効果を確認。,Notebook（.ipynb）,scikit-learn
+A099,上級,機械学習（scikit-learn）,第39–47章,再学習パイプライン,新データで再学習→評価→デプロイ（疑似）までの手順を定義。,Notebook（.ipynb）,scikit-learn
+A100,上級,機械学習（scikit-learn）,第39–47章,モデルの文書化,モデルカード（簡易版）をNotebookで作成する。,Notebook（.ipynb）,scikit-learn
